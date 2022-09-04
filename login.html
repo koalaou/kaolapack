@@ -4,17 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <title>login</title>
+    <style>
+        body {
+            font-family: 'Zhi Mang Xing', cursive;
+            /* font-family: 'Zen Antique', serif; */
+        }
+
+        /* class 是一个类别里的东西一起进行修改。用的是. 而id 指的是特定的，可以针对特定的一个东西进行装饰，用# */
+        .home3 {
+            width: 300px;
+            height: 25px;
+            background-color: rgb(228, 234, 232);
+        }
+    </style>
+
+    <script>
+        function jump3() {
+            var a = "hello.html"
+            window.open(a);
+        }
+    </script>
 </head>
 
 <body>
     <h1>Login</h1>
-
+    <hr>
     <form action="/login" method="post">
         <label for="username">UserName:</label>
         <input type="text" placeholder="孫悟空"> <br>
         <label for="password">Password:</label>
         <input type="password" name="password"><br>
-        <input type="submit" value="login"><br>
+        <input type="button" value="login" class="home3" onclick=javascript:jump3()><br>
     </form>
 
 </body>

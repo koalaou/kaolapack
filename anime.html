@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>anime</title>
+    <meta charset="UTF-8">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hana.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Murecho:wght@100&family=Potta+One&family=Shippori+Mincho&family=Yusei+Magic&family=Zen+Antique&family=Zhi+Mang+Xing&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: auto;
+        }
+
+        body {
+            background: url("hai.jpg");
+            background-size: cover;
+            font-family: 'Shippori Mincho', serif;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 50px;
+            background: rgb(246, 241, 223);
+            box-shadow: 0 -2px 2px rgb(188, 145, 145);
+            margin-top: 10px;
+        }
+
+        .navbar ul {
+            list-style: none;
+        }
+
+        .navbar ul li {
+
+            float: right;
+            width: 150px;
+            height: 50px;
+            background: rgb(152, 91, 152);
+            margin-right: 40px;
+            font-size: 14px;
+        }
+
+        .navbar ul li:hover {
+            color: rgb(245, 190, 170);
+            background: rgb(21, 84, 58);
+
+            animation: changeColor 2s infinite;
+            animation-delay: 3s;
+        }
+
+        @keyframes changColor {
+
+            0% {
+                background: rgb(244, 185, 185);
+            }
+
+            50% {
+                background: rgb(240, 222, 170);
+            }
+
+            100% {
+                background: rgb(167, 225, 177);
+            }
+
+
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: rgb(244, 200, 146);
+            display: block;
+            text-align: center;
+            line-height: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .navbar ul li ul li {
+            display: none;
+            width: 150px;
+            height: 50px;
+            float: initial;
+            background: rgba(rgb(159, 114, 114), rgb(122rgb(118, 118, 184)7, 122), rgb(167, 167, 213), alpha);
+            font-size: 10px;
+            transition: 0.3s;
+        }
+
+        .navbar ul li:hover ul li {
+            display: block;
+            border-top: 1px solid rgb(243, 174, 149);
+        }
+    </style>
+
+</head>
+
+<body>
+    <canvas></canvas>
+    <div class="overlay">
+        <h1 class="title" style="color:cadetblue">中華アニメ</h1>
+        <a href="hello.html"> ホームページに戻る</a>
+        <div class="search-box" id="azhen1">
+            <input class="search-txt" type="text" name="" placeholder="点我搜索～">
+            <a class="search-btn" href="#"> </a>
+        </div>
+
+        <div class="container" id="azhen3">
+            <div class="panel" style="background-image:url(anime-1.JPG)">
+                <a href="https://www.bilibili.com/bangumi/play/ss35208?spm_id_from=333.337.0.0">
+                    <h2 class="azhen4">烈火浇愁</h2>
+                </a>
+            </div>
+
+            <div class="panel" style="background-image:url(anime-2.JPG)">
+                <h2 class="azhen4">千秋</h2>
+            </div>
+
+            <div class="panel active" style="background-image:url(anime-3.JPG)">
+                <h2 class="azhen4">天宝伏妖录</h2>
+            </div>
+
+            <div class="panel" style="background-image:url(anime-4.jpg)">
+                <h2 class="azhen4">将进酒</h2>
+            </div>
+        </div>
+        <script src="azhen.js">
+        </script>
+
+
+        <img src="pic11.jpg" width="300" id="img">
+
+        <br><br>
+        <br>
+
+    </div>
+
+</body>
+
+<script src="never.js"></script>
+
+</html>

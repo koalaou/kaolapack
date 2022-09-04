@@ -90,7 +90,7 @@ function render() {
 //加载花瓣图片
 
 const oneImg = new Image();
-oneImg.src = './image/hana1.png';
+oneImg.src = './image/hana1.jpg';
 
 oneImg.addEventListener('load', () => {
     for (let i = 0; i < ONE_SUM; i++) {

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>index</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hana.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Murecho:wght@100&family=Potta+One&family=Shippori+Mincho&family=Yusei+Magic&family=Zen+Antique&family=Zhi+Mang+Xing&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: auto;
+        }
+
+        body {
+            background: url("hai.jpg");
+            background-size: cover;
+            font-family: 'Shippori Mincho', serif;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 50px;
+            background: rgb(246, 241, 223);
+            box-shadow: 0 -2px 2px rgb(188, 145, 145);
+            margin-top: 10px;
+        }
+
+        .navbar ul {
+            list-style: none;
+        }
+
+        .navbar ul li {
+
+            float: right;
+            width: 150px;
+            height: 50px;
+            background: rgb(152, 91, 152);
+            margin-right: 40px;
+            font-size: 14px;
+        }
+
+        .navbar ul li:hover {
+            color: rgb(245, 190, 170);
+            background: rgb(21, 84, 58);
+            animation: changeColor 2s infinite;
+            animation-delay: 3s;
+        }
+
+        @keyframes changColor {
+            0% {
+                background: rgb(244, 185, 185);
+            }
+            50% {
+                background: rgb(240, 222, 170);
+            }
+            100% {
+                background: rgb(167, 225, 177);
+            }
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: rgb(244, 200, 146);
+            display: block;
+            text-align: center;
+            line-height: 50px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .navbar ul li ul li {
+            display: none;
+            width: 150px;
+            height: 50px;
+            float: initial;
+            background: rgba(rgb(159, 114, 114), rgb(122rgb(118, 118, 184)7, 122), rgb(167, 167, 213), alpha);
+            font-size: 10px;
+            transition: 0.3s;
+        }
+
+        .navbar ul li:hover ul li {
+            display: block;
+            border-top: 1px solid rgb(243, 174, 149);
+        }
+    </style>
+</head>
+
+<body>
+
+    <canvas></canvas>
+
+    <div class="overlay">
+
+        <h1 class="title" style="color:cadetblue">小熊猫动物园</h1>
+
+        <div class="navbar">
+
+            <ul class="firs-menu">
+                <li><a href="#"> 观光客登入 </a>
+                    <ul class="second-menu">
+                        <li><a href="login.html">登录账号</a>
+                        </li>
+                        <li><a href="newacount.html">注册</a>
+                        </li>
+                        <li><a href="#">找回账号</a>
+                        </li>
+                        <li><a href="#">找回密码</a>
+                        </li>
+                </li>
+            </ul>
+
+            </ul>
+        </div><br>
+
+        <div class="search-box" id="azhen1">
+
+            <input class="search-txt" type="text" name="" placeholder="点我搜索～">
+            <a class="search-btn" href="#"> </a>
+        </div>
+
+        <div>
+            <p id="quan">欢迎来到小熊猫动物园！</p>
+            <button id="button1">收藏首页 </button>
+            <button id="button2">下载app </button>
+            <button id="button3">退出 </button>
+        </div>
+
+        <h3>饲养员介绍</h3><br>
+        <p>姓名：汪雪</p>
+        <p>爱好：动漫</p>
+        <p>2022年4月毕业，现就职于日本东京。</p>
+        <p>今年目标：二周目一定要把JAVA学好！</p>
+        <br>
+        <br><br>
+        <br>
+
+        <a href="http://www.google.com/" target=“_blank”>
+            <img src="redpanda4.jpg" width="300px" alt="this is a pic"> </a>
+
+        <br><br><br><br><br>
+        <h6>
+            Copyright By 小熊猫动物园 www.xxmdwy.net All rights reserved
+        </h6>
+
+        <script>
+            document.getElementById("button3").addEventListener("click", function () {
+
+                document.getElementById("quan").innerHTML = "欢迎来到玉舍村";
+                window.alert("你敢点？？？！");
+
+            });
+
+            document.getElementById("button1").addEventListener("click", function () {
+
+                document.getElementById("quan").innerHTML = "欢迎来到动物园";
+                window.alert("收藏成功！");
+
+            });
+
+            document.getElementById("button2").addEventListener("click", function () {
+
+                document.getElementById("quan").innerHTML = "欢迎来到动物园";
+                window.alert("骚凹瑞俺们还木有app");
+
+            });
+
+        </script>
+    </div>
+
+</body>
+
+<script src="never.js"></script>
+
+</html>
+
+

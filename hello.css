@@ -1,0 +1,68 @@
+body {
+    background-image: url(hello.jpeg);
+    background-size: cover;
+    font-family: 'Murecho', sans-serif;
+    font-family: 'Potta One', cursive;
+    font-family: 'Shippori Mincho', serif;
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+}
+
+#myp {
+    color: rgb(83, 83, 87);
+    font-size: 20px;
+    background-color: rgba(184, 232, 234, 0.5);
+}
+
+#myp3 {
+    color: rgb(217, 228, 237) 
+    background-color:rgba(184, 232, 234, 0.5);
+    border-style:dashed;
+    border-width:2px;
+    border-radius:5px;
+    border-color:rgb(135,62,209);
+}
+
+#aku {
+    color: rgb(135, 62, 209);
+    font-size: 5vh;
+    position: relative;
+    right: 150px;
+
+}
+
+#aku2 {
+    color: rgb(80, 159, 104);
+    font-size: 5vh;
+    position: relative;
+    left: 100px;
+}
+
+#aku3 {
+    color: rgb(64, 140, 158);
+    font-size: 5vh;
+    position: relative;
+    right: 101px;
+}
+
+
+#myp10 {
+    color: bisque;
+}
+
+#button3{
+width: 200px;
+height: 20px;;
+background-color: rgb(196, 219, 156);
+border-radius: 20px;
+border-width: 3px;
+}
+
+
+#button4{
+    width: 200px;
+    height: 20px;;
+    background-color: rgb(214, 162, 230);
+    border-radius: 20px;
+    border-width: 3px;
+}
